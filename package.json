@@ -1,0 +1,27 @@
+{
+  "name": "ixit_landing",
+  "version": "1.0.0",
+  "description": "iXit allows you upload files fast and secured so you can share or download them later anywhere  and anytime.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/k0d3d/ixit_landing.git"
+  },
+  "keywords": [
+    "uploads",
+    "file-sharing",
+    "music",
+    "audio",
+    "video",
+    "document"
+  ],
+  "author": "Mykel Koded",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k0d3d/ixit_landing/issues"
+  },
+  "homepage": "https://github.com/k0d3d/ixit_landing#readme"
+}

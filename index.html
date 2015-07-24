@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="ixitLanding">
 <head>
     <meta charset="utf-8">
 
@@ -60,7 +60,7 @@
 
 </head>
 
-<body>
+<body flow-init>
     <div class="main-wrapper">
 
         <!-- =========================
@@ -77,9 +77,9 @@
         <!-- =========================
              HEADER
         ============================== -->
-<header class="header solid-bg" id="top" data-stellar-background-ratio="0.5" style="background-position: 50% 0px;">
+        <header class="header solid-bg" id="top" data-stellar-background-ratio="0.5" style="background-position: 50% 0px;">
             <!-- Background Overlay -->
-            <div class="overlay">
+            <div class="overlay" overlay-height>
 
                 <!-- =========================================
                      Navigation
@@ -312,7 +312,7 @@
         <!-- ==================================================
             MOBILE DOWNLOAD SECTION
         ======================================================= -->
-        <section class="mobile-download light-bg" id="mobile-download">
+        <section class="mobile-download light-bg cl-effect-17" id="mobile-download">
             <div class="container">
                 <div class="wrapper-lg">
                     <div class="row">
@@ -349,15 +349,15 @@
                         <div class="col-sm-12 col-md-4 right-features">
                             <!-- More Features -->
                             <div class="col-sm-4 col-md-12">
-                                <h4>Register and Login</h4>
+                                <h4><a class="cd-hover-text" href="" data-hover="Register and Login">Register and Login</a></h4>
                                 <p>Once you have iXit installed on your android device, registering for an account is easy. You can login using your registered email address or phone number.</p>
                             </div>
                             <div class="col-sm-4 col-md-12">
-                                <h4>Pick your uploads</h4>
+                                <h4><a class="cd-hover-text" href="" data-hover="Select your uploads">Select your uploads</a></h4>
                                 <p>You can upload files by launching the app and selecting 'choose files' on the upload tab. You can also upload files from your file manager and gallery android application.</p>
                             </div>
                             <div class="col-sm-4 col-md-12">
-                                <h4>Share files or download later</h4>
+                                <h4><a class="cd-hover-text" href="" data-hover="Share files or download later">Share files or download later</a></h4>
                                 <p>Once a file is successfully uploaded, a unique link is created for the file. You can share this link to anyone with or witout an iXit account. Use the share button to attach links in emails, sms and chats.</p>
                             </div>
                         </div>
@@ -468,7 +468,7 @@
                         <div class="col-md-6">
                                 <!-- Logo -->
                                 <p class="footer-cta">
-                                    <a href="#top" class="btn btn-color">Select a file</a>
+                                    <button class="btn btn-color"  flow-btn>Select a file</button>
                                 </p>
                         </div>
                         <!-- Footer Contact Col -->
@@ -483,7 +483,10 @@
     <!-- =========================
          SCRIPTS
     ============================== -->
+    <script src="assets/js/plugins/angular.min.js"></script>
+    <script src="assets/js/plugins/angular-ui-router.min.js"></script>
     <script src="assets/js/plugins/jquery1.11.0.min.js"></script>
+    <script src="assets/js/plugins/ng-flow-standalone.js"></script>
     <script src="assets/js/plugins/bootstrap.min.js"></script>
     <script src="assets/js/plugins/jquery.easing.1.3.min.js"></script>
     <script src="assets/js/plugins/modernizr.custom.min.js"></script>
@@ -491,6 +494,8 @@
     <script src="assets/js/plugins/twitter/tweetie.min.js"></script>
     <!-- Custom Script -->
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/settings.js"></script>
 
     <!-- =========================================================
      STYLE SWITCHER | ONLY FOR DEMO NOT INCLUDED IN MAIN FILES

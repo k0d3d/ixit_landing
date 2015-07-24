@@ -361,7 +361,7 @@ $("#fast-reg").submit(function(e) {
 /* =======================================================================
    SIGNUP-DIVIDER ANIMATED POLYGON BACKGROUND
 ========================================================================== */
-    var container = document.getElementById('canvas-bg');
+    var container = document.getElementById('get-an-account');
     var renderer = new FSS.CanvasRenderer();
     var scene = new FSS.Scene();
     var light = new FSS.Light('323A45', '323A45');
@@ -406,6 +406,12 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 }
 
 
+});
+
+$(document).ready(function () {
+    $('.cl-effect-17 a').click(function (e) {
+        e.preventDefault();
+    });
 });
 
 
